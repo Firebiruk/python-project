@@ -2,7 +2,9 @@ from tkinter import *
 import math
 
 def press(num):
-    global equation
+    global equation, angle_mode
+    if num in ['Rad', 'Deg']:
+        return
     if num in ['sin', 'cos', 'tan', 'log', 'ln', '√']:
         equation += f"{num}("
     elif num == 'x!':
@@ -22,20 +24,23 @@ def equals():
             expression += ')' * (open_parentheses - close_parentheses)
         equation = equation.replace('x!', 'math.factorial')
         equation = equation.replace('√', 'math.sqrt')
-        equation = equation.replace('sin', 'math.sin')
-        equation = equation.replace('cos', 'math.cos')
-        equation = equation.replace('tan', 'math.tan')
         equation = equation.replace('log', 'math.log10')
         equation = equation.replace('ln', 'math.log')
-        equation = equation.replace('Rad', 'math.radians')
-        equation = equation.replace('Deg', 'math.degrees')
         equation = equation.replace('π', 'math.pi')
         equation = equation.replace('e', 'math.e')
         equation = equation.replace('^', '**')
         equation = equation.replace('EXP', 'math.exp')
         equation = equation.replace('Inv', '1/')
         
-        
+        if angle_mode == "DEG":
+            equation = equation.replace('sin(', 'math.sin(math.radians(')
+            equation = equation.replace('cos(', 'math.cos(math.radians(')
+            equation = equation.replace('tan(', 'math.tan(math.radians(')
+        else:  
+            equation = equation.replace('sin', 'math.sin')
+            equation = equation.replace('cos', 'math.cos')
+            equation = equation.replace('tan', 'math.tan')
+
         result = str(eval(equation))
         equation_text.set(result)
         equation = ''
@@ -69,6 +74,7 @@ buttons = ['AC', 'C', '(', ')', 'x!', 'Rad', 'Deg',
 operators = ['+', '-', '*', '/', '^', 'x!', '(', ")", '√', 'sin', 'cos', 'tan', 'log', 'ln', 'EXP', 'Rad', 'Deg', 'Inv', 'π', 'e', 'Ans']
 row=0
 column=1
+angle_mode = 'deg'
 
 last_answer = ''
 
