@@ -1,0 +1,190 @@
+{
+  "ict": [
+    {
+      "Question": "What does 'ICT' stand for?",
+      "Choices": ["Information and Communication Technology", "International Communication Tool", "Integrated Computer Technology", "Internet and Cyber Technology"],
+      "Answer": "Information and Communication Technology",
+      "Explanation": "ICT stands for Information and Communication Technology, referring to technologies that provide access to information through telecommunications."
+    },
+    {
+      "Question": "Which of the following is a hardware component?",
+      "Choices": ["Web browser", "Operating system", "Motherboard", "Cloud storage"],
+      "Answer": "Motherboard",
+      "Explanation": "The motherboard is a physical (hardware) component that connects all parts of a computer."
+    },
+    {
+      "Question": "Which one is an example of application software?",
+      "Choices": ["Windows 10", "MS Word", "BIOS", "RAM"],
+      "Answer": "MS Word",
+      "Explanation": "MS Word is an application software used for word processing."
+    },
+    {
+      "Question": "What does 'URL' stand for?",
+      "Choices": ["User Registration Line", "Uniform Resource Locator", "Universal Reference Log", "Unit Resource Label"],
+      "Answer": "Uniform Resource Locator",
+      "Explanation": "URL stands for Uniform Resource Locator, which is the address of a webpage."
+    },
+    {
+      "Question": "What is the main function of an operating system?",
+      "Choices": ["Design graphics", "Manage computer resources", "Send emails", "Connect to the internet"],
+      "Answer": "Manage computer resources",
+      "Explanation": "The operating system manages hardware and software resources and provides services for computer programs."
+    },
+    {
+      "Question": "Which device is used to input data into a computer?",
+      "Choices": ["Monitor", "Keyboard", "Speaker", "Projector"],
+      "Answer": "Keyboard",
+      "Explanation": "A keyboard is an input device that allows users to enter data into a computer."
+    },
+    {
+      "Question": "Which of the following is an example of cloud-based storage?",
+      "Choices": ["Flash drive", "Hard disk", "Google Drive", "DVD"],
+      "Answer": "Google Drive",
+      "Explanation": "Google Drive is a cloud-based storage service that stores data on the internet."
+    },
+    {
+      "Question": "Which of the following is not a programming language?",
+      "Choices": ["Python", "Java", "Linux", "C++"],
+      "Answer": "Linux",
+      "Explanation": "Linux is an operating system, not a programming language."
+    },
+    {
+      "Question": "What does 'CPU' stand for?",
+      "Choices": ["Central Processing Unit", "Computer Performance Unit", "Core Processing Utility", "Central Program Unit"],
+      "Answer": "Central Processing Unit",
+      "Explanation": "CPU stands for Central Processing Unit, often called the brain of the computer."
+    },
+    {
+      "Question": "Which of the following best describes a computer virus?",
+      "Choices": ["A type of hardware", "A cooling system", "A malicious software program", "An antivirus application"],
+      "Answer": "A malicious software program",
+      "Explanation": "A virus is a type of malicious software designed to harm or disrupt systems."
+    }
+  ],
+
+  "math": [
+    {
+      "Question": "What is the value of π (pi) approximately?",
+      "Choices": ["2.14", "3.14", "4.14", "5.14"],
+      "Answer": "3.14",
+      "Explanation": "Pi (π) is the ratio of a circle’s circumference to its diameter, approximately equal to 3.14."
+    },
+    {
+      "Question": "Which operation is performed first in the expression 3 + 4 × 2?",
+      "Choices": ["Addition", "Multiplication", "Subtraction", "Division"],
+      "Answer": "Multiplication",
+      "Explanation": "According to the order of operations (PEMDAS), multiplication is performed before addition."
+    },
+    {
+      "Question": "What is the square root of 64?",
+      "Choices": ["6", "8", "10", "12"],
+      "Answer": "8",
+      "Explanation": "The square root of 64 is 8 because 8 × 8 = 64."
+    },
+    {
+      "Question": "Which of the following is a prime number?",
+      "Choices": ["4", "6", "9", "11"],
+      "Answer": "11",
+      "Explanation": "11 is a prime number because it has only two factors: 1 and itself."
+    },
+    {
+      "Question": "What is the result of 2² + 3²?",
+      "Choices": ["13", "14", "15", "12"],
+      "Answer": "13",
+      "Explanation": "2² = 4 and 3² = 9, so the result is 4 + 9 = 13."
+    },
+    {
+      "Question": "What is the formula for the area of a triangle?",
+      "Choices": ["base*height", "½ *base*height", "length*width", "side²"],
+      "Answer": "½ *base*height",
+      "Explanation": "The area of a triangle is calculated using the formula ½*base*height."
+    },
+    {
+      "Question": "What is the greatest common divisor (GCD) of 24 and 36?",
+      "Choices": ["6", "8", "12", "18"],
+      "Answer": "12",
+      "Explanation": "12 is the largest number that divides both 24 and 36 evenly."
+    },
+    {
+      "Question": "What does the slope of a line represent in coordinate geometry?",
+      "Choices": ["The distance between two points", "The angle of the line", "The steepness of the line", "The midpoint"],
+      "Answer": "The steepness of the line",
+      "Explanation": "The slope measures how steep a line is; it is the ratio of rise over run."
+    },
+    {
+      "Question": "What is 15 percent of 200?",
+      "Choices": ["25", "30", "35", "40"],
+      "Answer": "30",
+      "Explanation": "15 percent of 200 is 0.15 * 200 = 30."
+    },
+    {
+      "Question": "What type of number is √2?",
+      "Choices": ["Rational", "Whole", "Irrational", "Natural"],
+      "Answer": "Irrational",
+      "Explanation": "√2 is irrational because it cannot be expressed as a simple fraction."
+    }
+  ],
+
+  "physics": [
+    {
+      "Question": "What is the unit of force in the SI system?",
+      "Choices": ["Watt", "Joule", "Newton", "Pascal"],
+      "Answer": "Newton",
+      "Explanation": "The SI unit of force is the Newton (N), named after Isaac Newton."
+    },
+    {
+      "Question": "What is the acceleration due to gravity on Earth?",
+      "Choices": ["8.9 m/s²", "9.8 m/s²", "10.8 m/s²", "9.0 m/s²"],
+      "Answer": "9.8 m/s²",
+      "Explanation": "The average gravitational acceleration on Earth's surface is 9.8 meters per second squared."
+    },
+    {
+      "Question": "What is the formula for calculating speed?",
+      "Choices": ["distance ÷ time", "mass * acceleration", "force ÷ area", "energy ÷ time"],
+      "Answer": "distance ÷ time",
+      "Explanation": "Speed is calculated by dividing distance by time."
+    },
+    {
+      "Question": "What is the main form of energy stored in a battery?",
+      "Choices": ["Kinetic", "Thermal", "Chemical", "Mechanical"],
+      "Answer": "Chemical",
+      "Explanation": "Batteries store chemical energy, which is converted to electrical energy when used."
+    },
+    {
+      "Question": "Which law explains that for every action, there is an equal and opposite reaction?",
+      "Choices": ["First Law of Motion", "Second Law of Motion", "Third Law of Motion", "Law of Conservation of Energy"],
+      "Answer": "Third Law of Motion",
+      "Explanation": "Newton's Third Law states that every action has an equal and opposite reaction."
+    },
+    {
+      "Question": "What is the speed of light in a vacuum?",
+      "Choices": ["300,000 m/s", "300,000 km/h", "3 * 10⁸ m/s", "3 * 10⁶ m/s"],
+      "Answer": "3 * 10⁸ m/s",
+      "Explanation": "The speed of light in a vacuum is approximately 3 * 10⁸ meters per second."
+    },
+    {
+      "Question": "What kind of wave is light?",
+      "Choices": ["Sound wave", "Mechanical wave", "Electromagnetic wave", "Transverse wave"],
+      "Answer": "Electromagnetic wave",
+      "Explanation": "Light is an electromagnetic wave that can travel through a vacuum."
+    },
+    {
+      "Question": "What is the unit of electric current?",
+      "Choices": ["Volt", "Ampere", "Ohm", "Watt"],
+      "Answer": "Ampere",
+      "Explanation": "Electric current is measured in amperes (A)."
+    },
+    {
+      "Question": "Which physical quantity is measured in joules?",
+      "Choices": ["Force", "Power", "Work", "Current"],
+      "Answer": "Work",
+      "Explanation": "Work and energy are measured in joules (J)."
+    },
+    {
+      "Question": "Which device is used to measure electric current?",
+      "Choices": ["Voltmeter", "Ammeter", "Galvanometer", "Thermometer"],
+      "Answer": "Ammeter",
+      "Explanation": "An ammeter is used to measure the flow of electric current in a circuit."
+    }
+  ]
+}
